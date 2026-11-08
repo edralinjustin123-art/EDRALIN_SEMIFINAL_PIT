@@ -1,0 +1,97 @@
+/* General */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #111;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+#home {
+    padding: 120px 10%;
+    min-height: 450px;
+}
+
+#home p {
+    color: #bbb;
+    margin: 15px 0;
+}
+
+#home h1 {
+    font-size: 40px;
+    margin: 15px 0;
+}
+
+#home h2 {
+    color: #a78bfa;
+}
+
+section {
+    padding: 60px 10%;
+    text-align: center;
+}
+
+section h2 {
+    color: #a78bfa;
+    margin-bottom: 30px;
+}
+
+.card {
+    background-color: #222;
+    padding: 25px;
+    margin: 10px;
+    border-radius: 10px;
+    border: 1px solid #444;
+}
+
+.card h3 {
+    color: #a78bfa;
+    margin-bottom: 10px;
+}
+
+.card p {
+    margin: 10px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.container .card {
+    width: 200px;
+}
+
+.skill {
+    background-color: #222;
+    border: 1px solid #a78bfa;
+    padding: 15px 25px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+footer h2 {
+    color: #a78bfa;
+    margin-bottom: 20px;
+}
+
+footer p {
+    color: #bbb;
+    margin: 15px;
+}
